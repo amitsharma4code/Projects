@@ -1,0 +1,31 @@
+.a {
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+}
+
+
+.b {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 30px;
+
+}
+
+.img-fluid {
+    max-width: 80%;
+    height: auto;
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+ @media(max-width:768px) {
+    .img-fluid {
+        max-width: 100%;
+    }
+}
