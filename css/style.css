@@ -1,31 +1,412 @@
-.a {
-    padding-top: 20px;
-    text-transform: uppercase;
-    font-family: 'prague';
-    letter-spacing: 3px;
+.nav-img {
+  width: 65px;
 }
 
+.navbar li {
+  padding: 0 10px;
 
-.b {
+}
+
+.navbar {
+  background-color: #0e0b0780;
+}
+
+.why {
+  background-image: url("https://www.firstfiddle.in/assets/images/bannerabout.jpg");
+  width: 100%;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  margin-right: auto;
+  margin-left: auto;
+  background-size: cover;
+}
+
+.mtop {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  background-color: #fbac29;
+  border-radius: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.m1-1 {
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-family: "prague";
+  letter-spacing: 3px;
+  margin-top: 80px;
+}
+
+.mainfooter {
+  background: #020306f0;
+  padding: 50px;
+  color: #fff;
+}
+
+.logo {
+  display: none;
+}
+
+.navbar-nav li a {
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.active {
+  color: #fbab29;
+}
+.d-block4desk{
+  display: block;
+}
+.d-block4mob{
+  display: none;
+}
+/* about page design */
+.img-tittle {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  left: 0%;
+  right: 0;
+  top: 18rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.text {
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-family: 'prague';
+  letter-spacing: 3px;
+}
+
+.banner-content {
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 25px;
+  text-align: justify !important;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.img-shadow {
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.game {
+  background: url('https://www.firstfiddle.in/assets/images/gamebanner.jpg');
+  width: 100%;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.game-p {
+  line-height: 40px;
+  letter-spacing: 1px;
+  color: white;
+  margin-bottom: 102px;
+}
+
+.desk-banner {
+  width: 100%;
+}
+
+.mob-banner {
+  display: none;
+}
+
+.p-text {
+  text-align: justify !important;
+  font-size: 15px;
+  line-height: 35px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+/* our team */
+.meet-the-team2 {
+  padding-top: 2%;
+  padding-left: 3%;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+.btn-d {
+  color: #ffffff;
+  padding: 10px 20px;
+  font-weight: bolder;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #fbac29;
+  margin-left: 2%;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 15px;
+
+}
+
+.image {
+  width: 500px;
+  position: relative;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.content {
+  height: 50%;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 21;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.6s;
+  color: aliceblue;
+}
+
+.content:hover {
+  opacity: 1;
+}
+
+.content h1 {
+  font-size: 40px;
+  /* margin-top: 299px; */
+}
+
+.content p {
+  font-size: 30px;
+  /* margin-top: 299px; */
+}
+
+conter>* {
+  transform: translateY(25px);
+  transition: transform 0.6s;
+}
+
+conter>::hover {
+  transform: translateY(0px);
+
+}
+
+.footer {
+  background-color: #000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.t-color{
+  color:#fbab29
+}
+/* press-image-handle */
+.press-image-handle{
+  width: 270px;
+  display: inline-block;
+  overflow: hidden;
+  outline: 0;
+  height: 340px;
+  -o-object-position: top;
+  object-position: top;
+  vertical-align: top;
+  padding: 0px 0 0px 0;
+  margin: 10px 2px;
+}
+.online-metion{
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+  padding: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  
+}
+
+.scrollable{
+  height: 425px;
+  overflow-y: scroll;
+  margin-top: 25px;
+}
+.scroll-content{
+  flex-direction: column !important;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.banner-bg{
+  background-image: url('https://www.firstfiddle.in/franchising-NEW.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 6rem;
+}
+
+.cloumn{
+  float: left;
+  width: 47%;
+  height: 250px;
+  margin: 1px; 
+}
+/* franchise page style */
+.height{
+  height: 100vh;
+}
+.why-to-choose-res{
+  background-color: #fec926;
+  padding: 50px 50px;
+  color: #000;
+  position: relative;
+  
+}
+.col8bg-c{
+  background-color:#000;
+  color: #fff;
+  position: absolute;
+  left: 27rem;
+   margin-top:2rem;
+  
+}
+.img{
+  width: 9%;
+}
+.col-p{
+  padding: 2rem 2rem;
+}
+.padding50{
+  padding: 50px;
+
+}
+ul li{
+  color: #fbab29;
+}
+
+.li-content{
+    line-height: 32px;
+    word-spacing: 2px;
+    font-size: 15px !important;
+    color: #faf8f6;
+    text-decoration: none;
+}
+.num-dec{
+  font-family: 'Montserrat',
+  sans-serif;font-size: 130px;
+  color: #e1e1e1;
+                
+}
+.btn-dec{
+  background-color: #fff;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 13px;
+  transition: 0.4s;
+}
+.check{
+  width: 30px;
+  height: 30px;
+  padding-right: 10px;
+}
+.py{
+   padding-right: 70px;
+   padding-left:70px;
+}
+.p3{
+  padding:40px 40px 0px 40px;
+}
+@media (max-width:700px) {
+  .logo {
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    letter-spacing: 1px;
-    word-spacing: 1px;
-    line-height: 30px;
+    width: 200px !important;
+  }
+  .mt{
+    margin-top: 80px;
+  }
 
+  .nav-img {
+    display: none;
+  }
+
+  .navbar {
+    background-color: #fbac29;
+  }
+  .mt4mob{
+    margin-top: 10vh;
+  }
+
+  .desk-banner {
+    display: none;
+  }
+
+  .mob-banner {
+    display: block !important;
+    width: 100%;
+  }
+  .d-block4mob{
+    display: block!important;
+    padding: 10px;
+  }
+  
+  .d-blok4desk{
+    display: none!important;
+  }
+  .col8bg-c{
+    background-color:#000;
+    color: #fff;
+    position: absolute!important;
+    left: 0rem!important;
+     margin-top:12rem!important; 
+  }
+  .height{
+    height: 206vh!important;
+  }
+  .py{
+    padding-right:0px!important;
+    padding-left:0px!important;
+ }
+ .p3{
+  padding: 0px !important;;
+}
+.online-metion {
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) !important;
+  padding: 0px!important;
+  margin-left: 0px!important;
+  margin-right: 0px!important;
+  margin-top: 0px!important;
+  margin-bottom:0px!important;
+  
 }
 
-.img-fluid {
-    max-width: 80%;
-    height: auto;
-    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+@media(max-width:996px) {
+  .img-tittle {
+    top: 12rem !important;
+  } 
 }
 
- @media(max-width:768px) {
-    .img-fluid {
-        max-width: 100%;
-    }
-}
